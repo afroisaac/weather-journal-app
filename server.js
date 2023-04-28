@@ -32,9 +32,5 @@ app.get('/all', (request, response) =>{
 });
 // Post Route
 app.post('/saveData', (request, response) => {
-    //let newEntry = request.body;
-    //console.log(request.body);
-
     projectData = request.body;
-   
 });
