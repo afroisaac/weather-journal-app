@@ -2,7 +2,7 @@
 const apiKey = '130ed56455ecea2e71298610442f8915&units=imperial';
 
 let d = new Date();
-let currentDate = `${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`;
+let currentDate = `${d.getMonth() + 1}-${d.getDate()}-${d.getFullYear()}`;
 
 /* Function called by event listener */
 const handleButtonClick = (e) => {
